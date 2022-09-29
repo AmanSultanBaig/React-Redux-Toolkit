@@ -10,5 +10,5 @@ const addItemSlice = createSlice({
     }
 })
 
-export const { add } = counterSlice.actions
+export const { add } = addItemSlice.actions
 export default addItemSlice.reducer
