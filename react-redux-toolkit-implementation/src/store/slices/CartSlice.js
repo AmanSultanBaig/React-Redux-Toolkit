@@ -5,7 +5,7 @@ const addItemSlice = createSlice({
     initialState: [],
     reducers: {
         add(state, action) {
-            state.push(action.payload)
+           return [...state, action.payload]
         }
     }
 })
